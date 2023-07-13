@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnVistas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:text="Vistas"
+        />
+
+    <Button
+        android:id="@+id/btnSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:layout_marginTop="30dp"
+        android:text="Splash"
+        />
+
+    <Button
+        android:id="@+id/btnListas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:layout_marginTop="30dp"
+        android:text="Listas"
+        />
+
+    <Button
+        android:id="@+id/btnEmpleado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:layout_marginTop="30dp"
+        android:text="Empleado"
+        />
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:layout_marginTop="30dp"
+        android:text="Calculadora"
+        />
+
+    <Button
+        android:id="@+id/btnMvvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:layout_marginTop="30dp"
+        android:text="Mvvw"
+        />
+
+    <Button
+        android:id="@+id/btnMvvwCalculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:layout_marginTop="30dp"
+        android:text="Mvvw Calculadora"
+        />
+
+    <Button
+        android:id="@+id/btnRetrofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:layout_marginTop="30dp"
+        android:text="Retrofit" />
+
+</LinearLayout>

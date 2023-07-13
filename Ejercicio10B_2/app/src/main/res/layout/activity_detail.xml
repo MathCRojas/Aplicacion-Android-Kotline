@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="alumnoXml"
+            type="mx.com.edu.ejercicio10b_2.listas.Alumno" />
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".DetailActivity">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@color/teal_700"/>
+
+        <TextView
+            android:id="@+id/nombre"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{alumnoXml.nombre}"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/estatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@{alumnoXml.estatus}"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@{alumnoXml.edad}"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".room.RegistroActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registra un personaje"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/habilidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habilidad"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/anio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Registrar"
+        android:layout_margin="30dp"
+        android:backgroundTint="#1E5D9F"
+        />
+
+</LinearLayout>

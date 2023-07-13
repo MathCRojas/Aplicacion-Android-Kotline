@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<data>
+    <variable
+        name="userXml"
+        type="mx.com.edu.ejercicio10b_2.retrofit.User" />
+</data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".retrofit.UserDetailActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/nombre"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@{userXml.name}"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@{userXml.email}"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@{userXml.gender}"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/estatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@{userXml.status}"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+</layout>
